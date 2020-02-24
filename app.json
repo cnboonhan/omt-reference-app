@@ -1,18 +1,40 @@
 {
-  "name": "OMTReferenceApp",
-  "displayName": "OMTReferenceApp",
+  "name": "OMT Reference",
+  "displayName": "OMT Reference App",
   "expo": {
-    "name": "OMTReferenceApp",
-    "slug": "OMTReferenceApp",
-    "privacy": "unlisted",
+    "name": "OMT Reference",
+    "slug": "omt-reference-app",
+    "privacy": "public",
     "sdkVersion": "36.0.0",
-    "version": "1.0.0",
-    "entryPoint": "node_modules/expo/AppEntry.js",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.omt.referenceapp",
+      "buildNumber": "4.0.0"
+    },
+    "android": {
+      "package": "com.omt.omtmedicalreference",
+      "versionCode": 4
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js",
     "description": ""
   }
 }
